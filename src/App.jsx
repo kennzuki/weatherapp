@@ -5,7 +5,9 @@ function App() {
         Weather App
       </h1>
       {/* search city */}
-      <section className=""></section>
+      <section className="">
+        <input type="text" className="rounded-xl w-full shadow-lg px-2 py-4" placeholder="Search for city..." />
+      </section>
     </div>
   );
 }
